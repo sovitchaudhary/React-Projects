@@ -65,3 +65,17 @@ ul button a{
     padding-left: 30px;
   }
 }
+
+.movie{
+  margin: 15px;
+  width: 200px;
+  border: 2px solid rgb(156, 117, 83);
+  padding: 5px;
+  text-align: start;
+  font-weight: bolder;
+}
+
+a:hover{
+  background-color: rgb(173, 141, 141);
+  color: black;
+}

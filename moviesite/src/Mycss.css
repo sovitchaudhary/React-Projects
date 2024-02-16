@@ -19,39 +19,40 @@
   color: #fff;
   font-size: 35px;
   font-weight: 600;
-  padding-left: 30px;
+  margin-left: 30px;
 
 }
 
 ul li{
   list-style: none;
-}
-ul{
-  display: flex;
-  padding-right: 30px;
-  align-items: center;
-  gap: 20px;
+  display: inline-block;
 }
 
 ul li a{
   color: #fff;
+  padding: 8px 12px;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 ul button{
   border: 2px solid rgb(170, 89, 89);
   height: 30px;
-  background-color: rgb(151, 107, 67);
+  background-color: rgb(110, 120, 194);
   border-radius: 5px;
-  
+  margin: 8px 30px 0px 0px;
 
 }
 
 ul button a{
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
+}
+
+ul button a:hover{
+  background-color: rgb(173, 141, 141);
+  color: #000;
 }
 
 @media (max-width:601px) {
@@ -67,8 +68,10 @@ ul button a{
 }
 
 .movie{
-  margin: 15px;
-  width: 200px;
+  background-color: rgb(181, 170, 170);
+  color: black;
+  margin-top: 10px;
+  width: 13%;
   border: 2px solid rgb(156, 117, 83);
   padding: 5px;
   text-align: start;
@@ -78,4 +81,27 @@ ul button a{
 a:hover{
   background-color: rgb(173, 141, 141);
   color: black;
+  border-radius: 5px;
+}
+
+.movie img{
+  height: 300px;
+  width: 100%;
+}
+
+.movie:hover{
+  background-color: grey;
+}
+
+@media (max-width: 935px) {
+  .main{
+    
+  }
+  
+}
+@media (max-width:375px) {
+  .main{
+    flex-direction: column;
+  }
+  
 }

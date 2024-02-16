@@ -1,11 +1,11 @@
 import React from "react";
 
-const Movie = () => {
+const Movie = (props) => {
   return (
     <div className="movie">
-      <img src="" alt="" />
-      <p>Title:</p>
-      <p>Year:</p>
+      <img src={props.img} alt="" />
+      <p>Title: {props.title}</p>
+      <p>Year: {props.year}</p>
     </div>
   );
 };

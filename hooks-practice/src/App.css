@@ -1,0 +1,23 @@
+*{
+  background-color: rgb(240, 234, 234);
+}
+
+.App {
+  text-align: center;
+  margin: 100px;
+  padding: 100px;
+}
+
+.btn{
+  background-color: rgb(24, 24, 102);
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: blue;
+  color: white;
+}

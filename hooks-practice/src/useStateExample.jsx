@@ -8,7 +8,21 @@ const UseStateExample = () => {
     const changeName = () => {
         // val='hello user';
         // console.log(val);
-        setMyName('welcome sovit');
+
+        // onetime change value
+        // setMyName('welcome sovit');
+
+        //toggle 
+        // if(myName === 'Sovit'){
+        //   setMyName('Hello! Welcome Sovit');
+        // }else{
+        //   setMyName('Sovit');
+        // }
+
+        //using ternary operator
+
+        let val= myName;
+        (val==='Sovit')?setMyName('Hello! Welcome Sovit'):setMyName('Sovit');
     }
 
   return (
